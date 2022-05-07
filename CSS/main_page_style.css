@@ -1,0 +1,368 @@
+/* ID Sections */
+
+#center-container{
+    background-color:#52057B;
+    padding: 25px 30px 45px 30px;
+    color:#FFFBE7;
+}
+
+#topmost-container{
+    background-color: #BC6FF1;
+    color:#fff;
+}
+
+#carouselExampleControls{
+    background-color: #711A75;
+}
+
+#middle-container{
+    padding:50px 30px 40px 30px;
+    /* position: relative;
+    bottom: 450px;  */
+    background-color: #316B83;
+    color:#fff;
+}
+
+#consult{
+    padding:25px 30px 40px 30px;
+    background-color: #2A2550;
+    color:#fff;
+}
+
+#intro-section{
+    background-color: #711A75;
+    padding:100px 100px 570px 60px;
+    color:#fff;
+}
+
+
+/* Navgiation Bar */
+.nav-link{
+    color:#fff;
+}
+.navbar-toggler{
+    background-color: #F8E2CF;
+}
+
+
+/* ======================================================== */
+/* Images Section */
+
+.d-block-w-100{
+    max-width: 50%;
+    height: 80%;
+    
+}
+.d-block-w-200{
+    max-width: 35%;
+}
+.d-block-w-300{
+    max-width: 30%;
+    height:40%;
+}
+
+.first-image-art{
+    max-width: 50%;
+    position: absolute;
+    right: 15px;
+    top:1400px;
+}
+
+.second-image-gif{
+    max-width:45%;
+    position: absolute;
+    right:80px;
+    top:2100px;
+    transform: rotate(15deg);
+}
+
+.impt{
+    max-width: 30%;
+}
+
+.therapy{
+    max-width: 50%;
+}
+
+.consult-1{
+    max-width: 45%;
+    position: absolute;
+    right:50px;
+    top:4200px;
+}
+.consult-2{
+    max-width: 45%;
+    position: absolute;
+    right:25px;
+}
+
+.ngo-faq{
+    max-width: 32%;
+    position: absolute;
+    left:970px;
+    top:820px;
+    transform: rotate(15deg);
+}
+
+.help-1{
+    max-width: 40%;
+    position: absolute;
+    right:20px;
+}
+.help-2{
+    max-width: 40%;
+    position: absolute;
+    top: 800px;
+}
+
+.faqs{
+    max-width: 35%;
+    position: relative;
+    /* float:left; */
+}
+/* ======================================================== */
+/* Division Classes */
+
+.container-fluid{
+    padding: 3% 15%
+}
+
+.colored-section{
+    background-color: #251D3A;
+    color:#fff;
+    text-align: center;
+}
+
+.white-section{
+    background-color: #fff;
+    text-align: center;
+}
+
+.card{
+    background-color: #112031;
+}
+
+/* ======================================================== */
+/* Fonts Section */
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: overline;
+    line-height: 2;
+}
+h2:hover{
+    background-color: #B762C1;
+}
+h3{
+    font-family: 'Vidaloka', serif;
+}
+h4{
+    font-family: 'Alice', serif;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* ======================================================== */
+/* Writing Section */
+.help{
+    text-decoration: underline;
+    text-align:center;
+}
+.help:hover{
+    background-color: #3B185F;
+}
+
+.big-heading{
+    text-decoration: none;
+}
+.big-heading:hover{
+    background-color: #251D3A;
+}
+
+.ngo-heading{
+    color:#fff;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.ngo-heading:hover{
+    background-color: #711A75;
+}
+
+.ngo-text1{
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+
+/*=======================================================*/
+/* Making the webpage responsive */
+
+/*Ipad Size*/
+
+@media(max-width:800px){
+    .ngo-gif{
+        max-width: 40%;
+        transform: rotate(0deg);
+        position: absolute;
+        left: 450px;
+        top:950px;
+    }
+
+    .ngo-faq{
+        max-width: 42%;
+        position: absolute;
+        left:405px;
+    }
+
+    .second-image-gif{
+        max-width: 25%;
+        position: absolute;
+        top: 2680px;
+        right:40px;
+    }
+
+    .consult-1{
+        max-width: 35%;
+        position: absolute;
+        top:4800px;
+        right:20px;
+        transform: rotate(20deg);
+    }
+
+    .consult-2{
+        display: none;
+    }
+
+    .first-image-art{
+        display: none;
+    }
+
+}
+
+/* Mobile Medium & Large Size */
+
+@media(max-width:425px){
+    .ngo-gif{
+        max-width:100%;
+        transform: rotate(0deg);
+        position: relative;
+        left:120px;
+    }
+    .consult-1{
+        display: none;
+    }
+
+    .second-image-gif{
+        position: absolute;
+        top:4660px;
+        transform: rotate(0deg);
+    }
+
+    .ngo-faq{
+        max-width: 50%;
+        transform: rotate(0deg);
+        position: absolute;
+        left:145px;
+        top:1500px;
+    }
+
+    .help-2{
+        max-width: 60%;
+        position:absolute;
+        top:1770px;
+    }
+}
+
+/* Large Lapout Layout */
+
+@media(max-width:1440px){
+    .ngo-faq{
+        max-width: 30%;
+        transform: rotate(10deg);
+        left:920px;
+    }
+
+    .first-image-art{
+        max-width: 46%;
+    }
+
+    .second-image-gif{
+        max-width: 27%;
+    }
+}
+
+/*Small laptop layout*/
+
+@media(max-width:1024px){
+    .ngo-faq{
+        left:680px;
+    }
+    .consult-1{
+        max-width: 40%;
+        top:4400px;
+        left:550px;
+    }
+    .consult-2{
+        max-width: 23%;
+        top:3580px; 
+        transform: rotate(20deg);
+    }
+    .second-image-gif{
+        transform: rotate(0deg);
+        max-width: 20%;
+    }
+    .first-image-art{
+        max-width: 30%;
+        transform: rotate(20deg);
+    }
+}
+/*Tablet Layout*/
+@media(max-width:768px){
+    .ngo-faq{
+        left: 500px;
+    }
+    .consult-1{
+        max-width: 32%;
+        top: 4780px;
+        left:490px;
+        transform: rotate(0deg);
+    }
+    .consult-2{
+        max-width: 25%;
+        top: 3580px;
+        right:22px;
+        transform: rotate(25deg);
+    }
+    .second-image-gif{
+        left:535px;
+        top:2700px;
+    }
+    .first-image-art{
+        max-width: 30%;
+    }
+}
+
+/*Mobile Small Layout*/
+@media(max-width:320px){
+    .help-2{
+        display: none;
+    }
+    .second-image-gif{
+        display: none;
+    }
+    .ngo-faq{
+        max-width: 90%;
+        transform: rotate(0deg);
+        position: absolute;
+        top:1850px;
+        left:15px;
+    }
+}

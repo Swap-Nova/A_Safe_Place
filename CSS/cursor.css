@@ -1,0 +1,8 @@
+/* Using this code for importing cursor but due to some position problem it's unable to work after multiple alterations*/
+
+.whole-body{
+  height:20%; 
+  background-position: center;
+  background-size: cover;
+  cursor:url("Cursor_Image.png"),auto;
+}
