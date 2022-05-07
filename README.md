@@ -18,6 +18,6 @@
 
 ### 🚀 Preview of the Webpage:
 ![image](https://user-images.githubusercontent.com/92979885/167266873-7d7b9475-211f-4233-bf46-d3ec2b833fa5.png)
-![image](https://user-images.githubusercontent.com/92979885/167266849-b46bb30b-34f4-4ec4-a896-be1c321ce3df.png)
+![image](https://user-images.githubusercontent.com/92979885/167267134-077212cf-34ea-4b75-a403-161494ad29a9.png)
 
 ##### ⌛ Disclaimer: The webpage is entirely responsive on laptops, iPhones, tablets, and iPads, but the images on the android devices might seem out of alignment. Creator was unable to fix it due to the current limited knowledge & time constraint. 
